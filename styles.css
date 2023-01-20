@@ -1,3 +1,6 @@
-div{
-    background-color: rgb(197, 238, 228);
+.container-fluid{
+    background-color: hsla(316, 78%, 72%, 0.976);
+}
+h1{
+    color: antiquewhite;
 }
