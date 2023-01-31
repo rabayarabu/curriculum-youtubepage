@@ -1,6 +1,40 @@
 .container-fluid{
-    background-color: hsla(316, 78%, 72%, 0.976);
+    background-color: #d52d2d;
+    margin: 0px;
+    padding: 0px;
+    position: left;
 }
-h1{
-    color: antiquewhite;
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .search-container button:hover {
+    background: #ccc;
+  }
+  
+.search{
+    padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: black;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+#video{
+    background-color: rgb(223, 212, 212);
+    margin: auto;
+    padding: 0px;
+}
+#sidebar{
+    background-color: rgb(240, 103, 103);
+    margin: auto;
+    padding: 0%;
 }

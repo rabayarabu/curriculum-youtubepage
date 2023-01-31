@@ -7,20 +7,35 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#home"><h1>VideoPlayer</h1></a>
-      <form class="form-inline">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+  <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+          <a class="navbar-brand" href="#">VideoPlayer</a>
+        <div class="search-container" >
+          <form class="search" action="/action_page.php">
+            <input class="search" type="text" placeholder="Search.." name="search" />
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+        <div class>
+          <button><i class="fa-duotone fa-video-plus"></i></button>
+        </div>
+      </nav>
+    
+    <div id="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/P7YMI39sObY" title="YouTube video player"
+       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+    <div id="sidebar">sidebar</div>
     </div>
     
-  </nav>
+  </div>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+       <script src="https://kit.fontawesome.com/7157bdc6d8.js" crossorigin="anonymous"></script>
 </body>
 </html>
