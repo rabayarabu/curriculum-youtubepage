@@ -1,40 +1,46 @@
-.container-fluid{
-    background-color: #d52d2d;
+*{
+    font-family: 'Poppins' , sans-serif;
     margin: 0px;
     padding: 0px;
-    position: left;
+    box-sizing: border-box;
+    
 }
-.search-container button {
-    float: right;
-    padding: 6px 10px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-  }
-  .search-container button:hover {
-    background: #ccc;
-  }
-  
-.search{
-    padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: black;
-  font-size: 17px;
+.navbar{
+  background-color: hsl(336, 19%, 90%);
+}
+a{
+  color: maroon;
+  text-decoration: solid;
+  margin-top: 10px 10px;
+  padding: 10px 10px;
+}
+
+form input{
+  flex: 1;
   border: none;
-  cursor: pointer;
-  display: inline-block;
+  outline: none;
 }
-#video{
-    background-color: rgb(223, 212, 212);
-    margin: auto;
-    padding: 0px;
+form button{
+  color: maroon;
+  padding: 10px 50px;
+  outline: none;
 }
-#sidebar{
-    background-color: rgb(240, 103, 103);
-    margin: auto;
-    padding: 0%;
+iframe{
+  margin: 10px 10px;
+  padding: 10px 50px;
+}
+span{
+  color: maroon;
+}
+h4{
+  color: maroon;
+}
+div.video-description{
+  margin: 5px 60px;
+  padding: 0%;
+}
+#sidebar-right{
+  float: left;
+  margin: 10px;
+  padding: 10px;
 }
