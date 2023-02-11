@@ -1,45 +1,53 @@
-*{
-    font-family: 'Poppins' , sans-serif;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
 }
-.navbar{
+
+.navbar {
   background-color: hsl(336, 19%, 90%);
 }
-a{
+
+a {
   color: maroon;
   text-decoration: solid;
   margin-top: 10px 10px;
   padding: 10px 10px;
 }
 
-form input{
+form input {
   flex: 1;
   border: none;
   outline: none;
 }
-form button{
+
+form button {
   color: maroon;
   padding: 10px 50px;
   outline: none;
 }
-iframe{
+
+iframe {
   margin: 10px 10px;
   padding: 10px 50px;
 }
-span{
+
+span {
   color: maroon;
 }
-h4{
+
+h4 {
   color: maroon;
 }
-div.video-description{
+
+div.video-description {
   margin: 5px 60px;
   padding: 0%;
 }
-#sidebar-right{
+
+#sidebar-right {
   float: left;
   margin: 10px;
   padding: 10px;
